@@ -6,7 +6,7 @@ export const LoginPage = () => {
         <main>
             <Header/>
             <h1>Login</h1>
-           <FormLogin/>
+            <FormLogin/>
         </main>
     )
 }

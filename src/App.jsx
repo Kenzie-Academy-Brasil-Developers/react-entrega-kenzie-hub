@@ -1,14 +1,13 @@
-import { RoutesMain } from "./routes/RoutesMain"
-
+import React from 'react';
+import { RoutesMain } from "../src/routes/RoutesMain.jsx";
+import { UserProvider } from '../src/contexts/UserContext.jsx';
 
 function App() {
-
-
   return (
-    <>
-      <RoutesMain/>
-    </>
-  )
+      <UserProvider>
+        <RoutesMain />
+      </UserProvider>
+  );
 }
 
-export default App
+export default App;
